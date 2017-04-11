@@ -28,7 +28,7 @@ View层中，cell进行图形化展示、布局适配。
 
 ## 2017.04.11  ---------
 
-###（1）：添加cell自适应高度
+（1）：添加cell自适应高度
 
 本文cell自适应高度采用iOS8 self-sizing-cell 方式，只需满足三个条件：
 
@@ -38,7 +38,7 @@ View层中，cell进行图形化展示、布局适配。
 
 3：cell.contentView的子控件与contentView的四条边满足约束关系。
 
-###（2）：cell内视图的autolayout布局
+（2）：cell内视图的autolayout布局
 
 采用ZXPAutoLayout框架（朋友所写，[GitHub](https://github.com/biggercoffee/ZXPAutoLayout)）
 
