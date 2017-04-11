@@ -32,6 +32,7 @@ View层中，cell进行图形化展示、布局适配。
 
 本文cell自适应高度采用iOS8 self-sizing-cell 方式
 只需满足三个条件：
+
 1：tableView.estimatedRowHeight = 44;(一个估算的高度)
 2：tableView.rowHeight = UITableViewAutomaticDimension;(iOS8之后，UITableViewAutomaticDimension为系统默认，也可以不写)
 3：cell.contentView的子控件与contentView的四条边满足约束关系。
