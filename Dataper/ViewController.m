@@ -48,7 +48,7 @@ static NSString * const cellID = @"cellID";
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.estimatedRowHeight = 104;
-        _tableView.rowHeight = 100;
+        _tableView.rowHeight = UITableViewAutomaticDimension;
         _tableView.showsVerticalScrollIndicator = NO;
         [_tableView registerClass:[TableViewCell class] forCellReuseIdentifier:cellID];
     }

@@ -7,13 +7,14 @@
 //
 
 #import "TableViewCell.h"
-
+#import "ZXPAutoLayout.h"
 @implementation TableViewCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self.contentView addSubview:self.nameLabel];
         [self.contentView addSubview:self.ageLabel];
+        [self autolayoutUI];
     }
     return self;
 }
@@ -21,7 +22,28 @@
     [super awakeFromNib];
    
 }
-
+- (void)autolayoutUI{
+    
+    [_nameLabel zxp_addConstraints:^(ZXPAutoLayoutMaker *layout) {
+        
+        layout.leftSpace(10);
+        layout.rightSpace(10);
+        layout.topSpace(10);
+        layout.bottomSpaceByView(_ageLabel, 10);
+        layout.autoHeight();
+        
+    }];
+    
+    [_ageLabel zxp_addConstraints:^(ZXPAutoLayoutMaker *layout) {
+        
+        layout.leftSpace(10);
+        layout.rightSpace(10);
+        layout.bottomSpace(10);
+        layout.autoHeight();
+        
+    }];
+    
+}
 - (UILabel *)nameLabel{
     if (!_nameLabel) {
         _nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 30)];

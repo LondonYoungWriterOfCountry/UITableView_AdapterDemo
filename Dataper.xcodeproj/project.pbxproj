@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C753F5AA1E9C6ABF004BE085 /* ZXPAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C753F5A91E9C6ABF004BE085 /* ZXPAutoLayout.m */; };
 		C75498011E96127E00A2733A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75498001E96127E00A2733A /* main.m */; };
 		C75498041E96127E00A2733A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75498031E96127E00A2733A /* AppDelegate.m */; };
 		C75498071E96127E00A2733A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75498061E96127E00A2733A /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C753F5A81E9C6ABF004BE085 /* ZXPAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPAutoLayout.h; sourceTree = "<group>"; };
+		C753F5A91E9C6ABF004BE085 /* ZXPAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPAutoLayout.m; sourceTree = "<group>"; };
 		C75497FC1E96127E00A2733A /* Dataper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dataper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75498001E96127E00A2733A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C75498021E96127E00A2733A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C753F5A71E9C6ABF004BE085 /* ZXPAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C753F5A81E9C6ABF004BE085 /* ZXPAutoLayout.h */,
+				C753F5A91E9C6ABF004BE085 /* ZXPAutoLayout.m */,
+			);
+			path = ZXPAutoLayout;
+			sourceTree = "<group>";
+		};
 		C75497F31E96127E00A2733A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +90,7 @@
 				C75498291E9630CB00A2733A /* Adapter */,
 				C75498261E9630A100A2733A /* Model */,
 				C75498251E96308E00A2733A /* ViewModel */,
+				C753F5A71E9C6ABF004BE085 /* ZXPAutoLayout */,
 				C75498081E96127E00A2733A /* Main.storyboard */,
 				C754980B1E96127E00A2733A /* Assets.xcassets */,
 				C754980D1E96127E00A2733A /* LaunchScreen.storyboard */,
@@ -205,6 +218,7 @@
 				C75498071E96127E00A2733A /* ViewController.m in Sources */,
 				C75498041E96127E00A2733A /* AppDelegate.m in Sources */,
 				C75498181E9613D900A2733A /* TableView_ViewModel.m in Sources */,
+				C753F5AA1E9C6ABF004BE085 /* ZXPAutoLayout.m in Sources */,
 				C754981E1E96141A00A2733A /* TableViewAdatper.m in Sources */,
 				C754981B1E9613F900A2733A /* TableViewCell.m in Sources */,
 				C75498011E96127E00A2733A /* main.m in Sources */,

@@ -21,12 +21,13 @@
 
 - (void)loadData{
     
-    self.dataArray =@[[UITableViewModel loadMeesagesWithString:@"fsdf" numer:3434],
-                      [UITableViewModel loadMeesagesWithString:@"fz" numer:56],
-                      [UITableViewModel loadMeesagesWithString:@"mfmcbm" numer:3434534534],
-                      [UITableViewModel loadMeesagesWithString:@"xcvn" numer:3234434],
-                      [UITableViewModel loadMeesagesWithString:@"fgj" numer:124],
-                      [UITableViewModel loadMeesagesWithString:@"k.ghjk" numer:789]];
+    self.dataArray =@[
+                      [UITableViewModel loadMeesagesWithString:@"fssfjgnsjgnskdjfngskjfndgjknx.,nmcnb,.mcvnbdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkz.xjdfnjknbfakjbfKSJDbfkz.jsdbf.zbdf" numer:3434],
+                      [UITableViewModel loadMeesagesWithString:@"fzs.d/mfz/sdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkz.dmf/zksmdfk/zsmdf/knzsdkgnj>BGKJBSDkgjbzs.dmz" numer:56],
+                      [UITableViewModel loadMeesagesWithString:@"mfmdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkzcbm" numer:3434534534],
+                      [UITableViewModel loadMeesagesWithString:@"xczsmd vzsdm v,mzvn" numer:3234434],
+                      [UITableViewModel loadMeesagesWithString:@"fzd., vxzzsdnfdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkzSDBfSDBVf,hSVfhjvsehjfvabsdljgbajksdc v vzxxgj" numer:124],
+                      [UITableViewModel loadMeesagesWithString:@"k.gdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkzdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkzdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkzdjfngskjfndgjknx.,nmcnb,.mcvnb.xjdfnjknbfakjbfKSJDbfkzhjk" numer:789]];
     
 }
 
