@@ -26,22 +26,26 @@ ViewModel层中，进行获取数据，最普遍的是网络请求，数据转�
 
 View层中，cell进行图形化展示、布局适配。
 
-## 2017.04.11  ------------
+## 2017.04.11  ---------
 
-（1）：添加cell自适应高度
+###（1）：添加cell自适应高度
 
-本文cell自适应高度采用iOS8 self-sizing-cell 方式
-只需满足三个条件：
+本文cell自适应高度采用iOS8 self-sizing-cell 方式，只需满足三个条件：
 
 1：tableView.estimatedRowHeight = 44;(一个估算的高度)
+
 2：tableView.rowHeight = UITableViewAutomaticDimension;(iOS8之后，UITableViewAutomaticDimension为系统默认，也可以不写)
+
 3：cell.contentView的子控件与contentView的四条边满足约束关系。
 
-（2）：cell内视图的autolayout布局
+###（2）：cell内视图的autolayout布局
 
 采用ZXPAutoLayout框架（朋友所写，[GitHub](https://github.com/biggercoffee/ZXPAutoLayout)）
+
 使用起来非常简单，只需引用 #import "ZXPAutoLayout.h",详细使用请查看[使用说明](https://github.com/biggercoffee/ZXPAutoLayout)。
+
 nameLabel和ageLabel约束如下：
+
 ```
     [_nameLabel zxp_addConstraints:^(ZXPAutoLayoutMaker *layout) {
         
@@ -62,6 +66,7 @@ nameLabel和ageLabel约束如下：
         
     }];
 ```
+
 约束好之后，搭配self-sizing-cell就能使cell自适应高度。
 
 
