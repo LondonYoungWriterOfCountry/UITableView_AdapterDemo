@@ -36,7 +36,7 @@ View层中，cell进行图形化展示、布局适配。
 
 2：tableView.rowHeight = UITableViewAutomaticDimension;(iOS8之后，UITableViewAutomaticDimension为系统默认，也可以不写)
 
-3：cell.contentView的子控件与contentView的四条边满足约束关系。
+3：cell.contentView的子控件与contentView的四条边满足约束关系（子控件需添加到contentView上）。
 
 （2）：cell内视图的autolayout布局
 
