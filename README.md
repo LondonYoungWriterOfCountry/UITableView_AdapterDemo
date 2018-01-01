@@ -40,10 +40,6 @@ View层中，cell进行图形化展示、布局适配。
 
 （2）：cell内视图的autolayout布局
 
-采用ZXPAutoLayout框架（朋友所写，[GitHub](https://github.com/biggercoffee/ZXPAutoLayout)）
-
-使用起来非常简单，只需引用 #import "ZXPAutoLayout.h",详细使用请查看[使用说明](https://github.com/biggercoffee/ZXPAutoLayout)。
-
 nameLabel和ageLabel约束如下：
 
 ```
